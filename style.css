@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Georgia, "Times New Roman", Times, serif;
+    height: 750px;
+    
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+header{
+    background-color: #F5F5F5;
+    width: 50%;
+    margin: 10px auto 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 100% 0% 54% 46% / 0% 100% 0% 100%;
+}
+input,
+label,
+textarea
+{
+    display: block;
+    width: 50%;
+    padding: 5px;
+    margin: 0 auto;
+
+}
+
+fieldset,
+legend{
+    border-radius: 10px;
+}
+fieldset{
+    background-color: #A4DEE2;
+}
+legend{
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    margin-left: 40px;
+    padding: 5px;
+}
+label{
+    background-color: #CF6663;
+    margin-top: 20px;
+}
+::placeholder{
+    color: #FF0052;
+}
+input{
+    border-top: none;
+}
+#button{
+    text-align: center;
+    /* background-color: #c4406a; */
+
+}
+input[type="submit"],
+input[type="reset"]
+{
+    width: 20%;
+    display: inline-block;
+    height: 40px;
+    margin: 5px 0;
+    background-color: #f29132;
+    border: solid 1px black;
+    cursor: pointer;
+    border-radius:100% 0% 100% 0% / 13% 100% 0% 87%;
+}
+
+input[type="reset"]{
+    border-radius: 100% 0% 100% 0% / 0% 88% 12% 100%;;
+}
+
+input[type="reset"]:hover{
+    border-color: #FF0052;
+    color: #FF0052;
+}
+input[type="submit"]:hover{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
